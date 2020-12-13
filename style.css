@@ -52,7 +52,6 @@ h2 {
 	margin:0;
 	display: flex;
 	padding: 0;
-	justify-content: space-between;
 }
 
 .menu__item{
@@ -62,6 +61,10 @@ h2 {
 
 .menu__item:not(:first-child){
 	border-left: 3px white solid;
+}
+
+.menu__item:last-child {
+	padding-right: 0;
 }
 
 .menu__item a {
@@ -110,7 +113,6 @@ h2 {
 	padding-top: 128px;
 	padding-bottom: 127px;
 	background-size: cover;
-	text-align: center;
 }
 
 .hero__text {
@@ -121,6 +123,7 @@ h2 {
 	font-weight: 500;
 	padding-right: 108px;
 	padding-left: 108px;
+	text-align: center;
 }
 
 /*блок Intro*/
