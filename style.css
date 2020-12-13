@@ -1,0 +1,215 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 72px;
+	color:white;
+	margin:0;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 64px;
+	font-weight: 500;
+	color:#007765;
+	margin:0;
+	text-align: center;
+}
+
+.container{
+	box-sizing: border-box;
+ 	max-width: 1219px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-left: 55px;
+  	padding-right: 55px;
+}
+
+/*Фиксированный блок*/
+.header{
+	background-color: #007765;
+	padding-top: 20px;
+  	padding-bottom: 19px;  	
+  	width: 100%;
+  	position: fixed;
+ }
+
+.row{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo a img {
+	display: block;
+}
+
+/*Блок ссылок*/
+.menu{
+	font-size: 24px;
+	color:#FFFFFF;
+	margin:0;
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.menu__item{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.menu__item:not(:first-child){
+	border-left: 3px white solid;
+}
+
+.menu__item a {
+	text-decoration: none;
+	color:white;
+}
+
+/*Блок Pipernet*/
+.pipernet{
+	background:#05131B url('img\\Jumbotron.jpg');
+	padding-top: 160px;
+	padding-bottom: 160px;
+	text-align: center;
+	background-size: cover;
+}
+
+/*Блок Problem*/
+.problem {
+	background-color: #EEEEEE;
+	padding-top: 48px;
+	padding-bottom: 92px;
+}
+
+.text {
+	margin-top:16px;
+}
+
+.text p {
+	font-size: 32px;
+	text-align: left;
+	line-height: 37.5px;
+	margin:0;
+}
+
+.text p:not(:first-child) {
+	margin-top: 51px;
+}
+
+.text p span {
+	font-weight: bold;
+}
+
+/*Блок Hero*/
+.hero {
+	background:#0C5E90 url('img\\Hero.png') center center;
+	padding-top: 128px;
+	padding-bottom: 127px;
+	background-size: cover;
+	text-align: center;
+}
+
+.hero__text {
+	color:#FFFFFF;
+	line-height: 56.3px;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 500;
+	padding-right: 108px;
+	padding-left: 108px;
+}
+
+/*блок Intro*/
+.intro {
+	background-color: #FFFFFF;
+	padding-top: 48px;
+	padding-bottom: 92px;
+}
+
+.intro__content {
+	margin-top:16px;
+}
+
+.intro__content a {
+	float:left;
+	margin-right: 48px;
+}
+
+.intro__content a img {
+	display:block;
+}
+
+.intro__content p {
+	font-size: 32px;
+	text-align: left;
+	line-height: 37.5px;
+	margin:0;
+}
+
+.intro__content p:not(:first-of-type) {
+	margin-top:40px;
+}
+
+.intro__content p span{
+	font-style: italic;
+}
+
+/* Блок Team*/
+.team {
+	background-color: #EEEEEE;
+	padding-top: 48px;
+	padding-bottom: 94px;
+}
+
+.team__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content__card {
+	padding-top: 25px;
+	padding-bottom: 29px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:31px;
+}
+
+.content__card img {
+	padding-left: 91px;
+	padding-right: 91px;
+}
+
+.name {
+	color:#007765;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.prof {
+	color:#000000;
+	font-style: italic;
+	font-size: 18px;
+}
+
+/*Блок Footer*/
+.footer {
+	background-color: #333333;
+	padding-top: 48px;
+	padding-bottom: 64px;
+}
+
+.footer__text {
+	color:#FFFFFF;
+	line-height: 21.1px;
+	font-size: 18px;
+	padding-right: 285px;
+	padding-left: 285px;
+	text-align: center;
+}
